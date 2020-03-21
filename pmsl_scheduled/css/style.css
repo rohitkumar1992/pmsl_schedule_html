@@ -368,6 +368,29 @@ body.headerfix header { position: fixed; top: 0px; left: 0px; z-index: 99; }
 /*=end employee form=*/
 
 
+/*==add clock box==*/
+.clock_box { width: 100%; }
+.clock_box .box { width: 100%; margin-bottom: 20px; height: 160px; display:flex; -moz-display:flex; -webkit-display:flex; -ms-display:flex; flex-flow: column wrap; justify-content: center; align-items: center; border-radius: 15px; padding: 20px 20px; background: #c9d6ff; background: -webkit-linear-gradient(to right, #c9d6ff, #e2e2e2); background: linear-gradient(to right, #c9d6ff, #e2e2e2); transition: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out; -ms-transition: 0.3s ease-in-out; }
+.clock_box .box { cursor:pointer; }
+.clock_box .box .icon { color:#fff; }
+.clock_box .box .icon svg { font-size: 50px; margin-bottom: 10px; }
+.clock_box .box p { margin-bottom: 0px;text-transform: uppercase; letter-spacing: 1px; font-size: 20px; font-weight: 600; color: #502121; }
+.clock_box .box:hover { background: #d9a7c7; background: -webkit-linear-gradient(to right, #d9a7c7, #fffcdc); background: linear-gradient(to right, #d9a7c7, #fffcdc); transition: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out; -ms-transition: 0.3s ease-in-out; }
+
+.box_t .buttons.buttons1 { width: 100%; display: flex; -moz-display: flex; -webkit-display: flex; flex-flow: row wrap; justify-content: flex-end; align-items: center; }
+.box_t .buttons.buttons1 a.s_btn { margin-left: 10px; }
+.box_t .buttons.buttons1 a.s_btn:first-child { margin-left: 0px; }
+
+.clock_listing { width: 100%; }
+.clock_listing table tr th:first-child { width: 30%; }
+.clock_listing table tr th:nth-child(2) { width: 15%;}
+.clock_listing table tr th:nth-child(3) { width: 15%; }
+.clock_listing table tr th:nth-child(4) { width: 15%; }
+.clock_listing table tr th:nth-child(5) { width: 15%; }
+.clock_listing table tr th:nth-child(6) { width: 10%; }
+/*=end add clock box=*/
+
+
 /*===loader===*/
 .loader_cont { position: absolute; top: 50%; left: 50%; display: inline-block; transform: translate(-50%, -50%); }
 /*=end loader=*/
