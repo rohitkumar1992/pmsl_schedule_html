@@ -370,12 +370,12 @@ body.headerfix header { position: fixed; top: 0px; left: 0px; z-index: 99; }
 
 /*==add clock box==*/
 .clock_box { width: 100%; }
-.clock_box .box { width: 100%; margin-bottom: 20px; height: 160px; display:flex; -moz-display:flex; -webkit-display:flex; -ms-display:flex; flex-flow: column wrap; justify-content: center; align-items: center; border-radius: 15px; padding: 20px 20px; background: #c9d6ff; background: -webkit-linear-gradient(to right, #c9d6ff, #e2e2e2); background: linear-gradient(to right, #c9d6ff, #e2e2e2); transition: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out; -ms-transition: 0.3s ease-in-out; }
+.clock_box .box { width: 100%; margin-bottom: 20px; height: 135px; display:flex; -moz-display:flex; -webkit-display:flex; -ms-display:flex; flex-flow: column wrap; justify-content: center; align-items: center; border-radius: 0px; padding: 20px 20px; background: #fff; transition: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out; -ms-transition: 0.3s ease-in-out; }
 .clock_box .box { cursor:pointer; }
-.clock_box .box .icon { color:#fff; }
-.clock_box .box .icon svg { font-size: 50px; margin-bottom: 10px; }
-.clock_box .box p { margin-bottom: 0px;text-transform: uppercase; letter-spacing: 1px; font-size: 20px; font-weight: 600; color: #502121; }
-.clock_box .box:hover { background: #d9a7c7; background: -webkit-linear-gradient(to right, #d9a7c7, #fffcdc); background: linear-gradient(to right, #d9a7c7, #fffcdc); transition: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out; -ms-transition: 0.3s ease-in-out; }
+.clock_box .box .icon { color:#333; }
+.clock_box .box .icon svg { font-size: 38px; margin-bottom: 10px; }
+.clock_box .box p { margin-bottom: 0px;text-transform: uppercase; letter-spacing: 1px; font-size: 18px; font-weight: 500; color: #502121; }
+.clock_box .box:hover { background: #e4e1e1; transition: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out; -ms-transition: 0.3s ease-in-out; }
 
 .box_t .buttons.buttons1 { width: 100%; display: flex; -moz-display: flex; -webkit-display: flex; flex-flow: row wrap; justify-content: flex-end; align-items: center; }
 .box_t .buttons.buttons1 a.s_btn { margin-left: 10px; }
@@ -411,6 +411,26 @@ body.headerfix header { position: fixed; top: 0px; left: 0px; z-index: 99; }
 .emp_form .l_d_lst .upl_btn_ar label:hover a { opacity:0.9; }
 .emp_form .l_d_lst .upl_btn_ar label input { display:inline-block; width: 100%; height: 100%; opacity: 0; position: absolute; top: 0px; left: 0px; z-index: 1; }
 /*=end legal information=*/
+
+
+/*==add clock box==*/
+.channel_box { width: 100%; }
+.channel_box .box { width: 100%; margin-bottom: 20px; height: 124px; display:flex; -moz-display:flex; -webkit-display:flex; -ms-display:flex; flex-flow: column wrap; justify-content: center; align-items: center; border-radius: 0px; padding: 0px; background: #fff; transition: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out; -ms-transition: 0.3s ease-in-out; }
+.channel_box .box img { max-width: 100%; max-height: 100%; }
+.channel_box .box { cursor:pointer; }
+.channel_box .box:hover { background: #fff; opacity:0.8; transition: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out; -ms-transition: 0.3s ease-in-out; }
+
+.emp_form .upl_area {  }
+.emp_form .upl_area .upl_box { padding: 0px 0px; margin-bottom: 10px; position: relative; display: inline-block; width: 100%;  height: 160px; background: #fff; text-align: center; border: 1px dashed #ddd; }
+.emp_form .upl_area .upl_box label { padding: 32px 0px; position: relative; height: 100%; width: 100%; z-index: 9; cursor: pointer; margin-bottom: 0px;}
+.emp_form .upl_area .upl_box label input { display: none; }
+.emp_form .upl_area .upl_box button { z-index: -1; position: relative; }
+.emp_form .upl_area .upl_box span.note { position: absolute; font-size: 12px; display:inline-block; width: 100%; top: 85px; left: 0px; text-align: center;}
+.emp_form .upl_area .upl_box .progress { margin-top: 20px; }
+.emp_form .upl_area .upload_gallery { display:flex; margin-top: 0px; margin-bottom: 10px; flex-flow: row wrap; justify-content: flex-start; }
+.emp_form .upl_area .upload_gallery > div { width: 100%; line-height: 0px; text-align: center;}
+.emp_form .upl_area .upload_gallery img { max-height: 100px; }
+/*=end add clock box=*/
 
 
 /*===loader===*/
