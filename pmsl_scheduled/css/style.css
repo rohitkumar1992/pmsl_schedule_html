@@ -391,6 +391,28 @@ body.headerfix header { position: fixed; top: 0px; left: 0px; z-index: 99; }
 /*=end add clock box=*/
 
 
+/*==legal information==*/
+.emp_form.legal_inf { margin-top: 20px; width: 100%; } 
+.emp_form.legal_inf h4:first-child { margin-top: 0px; }
+.emp_form.legal_inf h4 { margin-top: 15px; margin-bottom: 10px; font-weight: 500; font-size: 16px; } 
+.emp_form .inputbox .input_area { position: relative; width: 100%; margin-bottom: 15px; }
+.emp_form .inputbox .input_area input { margin-bottom: 0px; position: relative; z-index: 2; background: transparent; }
+.emp_form .inputbox .input_area > svg { position: absolute; display: inline-block; right: 10px; top: 10px; z-index: 1; }
+.emp_form .inputbox .input_area .aeb { width: 100%; }
+.emp_form .inputbox .input_area .aeb input { width: calc(100% - 150px); float: left; margin-right: 14px; }
+.emp_form .inputbox .input_area .aeb button { font-weight: 400; font-size: 14px; background:#6c757d; }
+.emp_form .inputbox .input_area .aeb button:hover { background: #6c757d; opacity: 0.9; color:#fff; }
+.emp_form .l_d_lst { width: 100%; margin-bottom: 20px; }
+.emp_form .l_d_lst .table-responsive { border-bottom: 1px solid #ddd; }
+.emp_form .l_d_lst .table-responsive table { margin-bottom: 0px; }
+.emp_form .l_d_lst .upl_btn_ar { width: 100%; margin-top: 15px; display: flex; -webkit-display: flex; -moz-display: flex; flex-flow: row wrap; justify-content: flex-end; align-self: center; }
+.emp_form .l_d_lst .upl_btn_ar label { display: inline-block; width: 152px; height: 35px; position: relative; }
+.emp_form .l_d_lst .upl_btn_ar label a { position: relative; }
+.emp_form .l_d_lst .upl_btn_ar label:hover a { opacity:0.9; }
+.emp_form .l_d_lst .upl_btn_ar label input { display:inline-block; width: 100%; height: 100%; opacity: 0; position: absolute; top: 0px; left: 0px; z-index: 1; }
+/*=end legal information=*/
+
+
 /*===loader===*/
 .loader_cont { position: absolute; top: 50%; left: 50%; display: inline-block; transform: translate(-50%, -50%); }
 /*=end loader=*/
